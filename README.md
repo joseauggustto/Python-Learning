@@ -4,10 +4,18 @@ Repositório criado para documentar meus exercícios práticos, scripts e concei
 
 ---
 
-## Conteúdos
+## Conteúdos:
 
-* **Lógica e Fundamentos:**
-* **Projetos Práticos & Algoritmos:**
-* **Manipulação de Arquivos:**.
+* **Lógica e Fundamentos.**
+* **Projetos Práticos & Algoritmos.**
+* **Manipulação de Arquivos.**
+
+---
+
+## Tecnologias Utilizadas:
+
+* **Cursos: freeCodeCamp e AWS Re/Start - Python**
+* **Ferramenta: VS Code.**
+* **Versionamento: Git e GitHub.**
 
 ---
