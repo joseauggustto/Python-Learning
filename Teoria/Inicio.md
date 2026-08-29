@@ -95,3 +95,59 @@ def hello()
 
 hello()
 
+-------------------------------
+
+Lista, tuplas e ranges. 
+
+- São tipos básicos de sequências usadas em python. 
+
+- Sempre começam em zero, como índice. 
+
+- ex: cities = ['Los Angeles', 'London']
+
+- para acessar um elemento: cities[0]
+
+- se quiser substituir um dado: cities[0] = 'Ireland'
+
+- deletar um dado: del cities[0]
+
+|> Métodos Comuns em Listas
+
+- o comando .append() vai adicionar elementos na lista de acordo com a idenxação desejada. 
+
+- o comando .extend adiciona vários dados, em vez de um só
+
+- para adicionar dados em um local especificico = .insert(index, dado)
+
+- o .remove remove um dado específico 
+
+- para remover um dado específico usa-se o .pop()
+
+- o .clear vai limpar a lista
+
+- o .sort vai organizar os dados
+
+| > TUPLAS
+
+Tuplas são semelhantes a listas, mas são imutáveis, ao contrário das listas. 
+
+-------------------------------
+
+LOOPS 
+
+Usados para repetir blocos de código. 
+
+O loop for é usado para percorrer um lista imprimindo os valores, ou recebendo os dados para usar em outro lugar. 
+
+a instrução break é usada para fechar o loop quando um valor é achado, se não ele não vai sair do loop e vai imprimir tudo
+
+a instrução continue vai passar o código, mesmo se ele foi feito para parar
+
+a função enumerate() vai numerar os index de uma lista
+
+o comando in zip vai mesclar dois dados e imprimilos se completando
+
+
+
+
+
