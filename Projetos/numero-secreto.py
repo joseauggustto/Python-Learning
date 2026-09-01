@@ -1,16 +1,26 @@
-"""Defina um número secreto fixo (por exemplo, numero_secreto = 42) ou use o módulo random (import random; numero_secreto = random.randint(1, 100)).
 
-Crie uma variável para contar quantas tentativas o jogador fez (começando em 0).
+import random
 
-Em um loop while:
+def guess_number():
 
-    Peça o palpite do jogador.
+    secret_number = 22
+    attempts = 0
 
-    Aumente o contador de tentativas em 1.
+    while True:
+        guess = int(input("Advinhe um número entre 1 e 100: "))
+        attempts += 1
 
-    Se o palpite for maior que o número secreto, avise: "Muito alto! Tente um número menor."
+        if guess > secret_number:
+            print("Muito alto! Tente um número menor.")
 
-    Se o palpite for menor, avise: "Muito baixo! Tente um número maior."
+        elif guess < secret_number:
+            print("Muito baixo! Tente um número maior.")
 
-    Se o jogador acertar, parabenize e mostre o total de tentativas gastas, depois encerre o loop."""
+        else:
+            print(f"Parabens, você acertou o número {secret_number} em {attempts} tentativas!")
+            break
 
+    return attempts
+
+guess_number()
+    
